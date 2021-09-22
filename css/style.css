@@ -49,6 +49,13 @@ color: #757575
 .aside .tel:focus {
 color: #080545
 }
-.caption h1, h2, h3, h4 {
+.caption 
+h1, 
+h2, 
+h3, 
+h4,
+h5,
+h6 {
 color: #212121; 
 }
+.
