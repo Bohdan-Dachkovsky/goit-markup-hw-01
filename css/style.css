@@ -1,22 +1,30 @@
+:root {
+    --basic-bg-color:#2196F3;
+    --primery-item-color:#757575;
+    --internal-light-dark: #FFFFFF;
+}
 body {
     position: absolute
 }
 ul {
     list-style: none; ;
 }
+a {
+    text-decoration: none;
+}
 .logo {
 color: black;
 }
 /* Add a dark-blue color focus for logo */
 .logo:focus {
-    color: #080545
+    color: #080545; 
 }
 .site-nav .item-1>a {
 color: #2196F3;
 }
 /* Add a dark-blue color focus for item1 */
 .site-nav .item-1 a:focus {
-color: #080545
+color: #080545; 
 }
 
 .site-nav a {
@@ -25,35 +33,75 @@ color: #212121;
 /* Add hover and active dark color for nav unit */
 .site-nav .item-1 .link:hover,
 .site-nav .item-1 .link:active {
- color: #212121   
+ color: #212121;    
 }
 .site-nav .link:hover,
 .site-nav .link:active {
-color:#2196F3
+color:#2196F3; 
 }
 .site-nav .link:focus {
-color:#080545    
+color:#080545;     
 }
 
 .aside .e-mail {
-    color:#2196F3 
+    color:#2196F3;  
 }
 /* Add a dark-blue color focus for adittional block */
 .aside .e-mail:focus {
-color: #080545 
+color: #080545;  
 }
 .aside .tel {
-color: #757575
+color: #757575; 
 }
 /*Add a dark-blue color focus for adittional block */
 .aside .tel:focus {
-color: #080545
+color: #080545; 
 }
-.caption 
-h1, 
-h2, 
-h3, 
-h4, {
-color: #212121; 
+/* The beginning of the main content */
+.caption h1, h2, h3, h4
+ {
+color: #212121;
 }
-.
+.wrapper {
+ background-color: #2F303A;
+} 
+.wrapper .headline {
+color: #FFFFFF;
+;}
+/* Button */
+.wrapper .btn {
+color: #FFFFFF; 
+background-color: var(--basic-bg-color);
+}
+.wrapper .button .btn {
+ font-size: 16px
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.section .activity-list .item-1 {
+color: var(--primery-item-color);
+}
+.section .desc {
+color: #757575;;    
+}
+/* The beginning of the Footer */
+.basement {
+background-color: #2F303A;    
+}
+.logotype .web-link {
+color: #2196F3;
+}
+.basement a {
+color: white;
+}
+.info .contact-details {
+color: #FFFFFF;
+}
+.info .details {
+color: rgb (255, 255, 255, 0.6);
+}
