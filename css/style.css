@@ -2,6 +2,7 @@
     --basic-bg-color:#2196F3;
     --primery-item-color:#757575;
     --internal-light-dark: #FFFFFF;
+    --permanent-color: rgb (255, 255, 255, 0.6);    
 }
 body {
     position: absolute
@@ -145,14 +146,14 @@ color: #212121;
 .section .activity-list .item-1 {
 color: var(--primery-item-color);
 }
-.worker-list .roster .subtitle-1 {
+.section .subtitle-1 {
 font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 color: #212121;
 }
-.section .spesialist .subtitle-2  {
+.section .subtitle-2  {
 font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
@@ -197,17 +198,24 @@ line-height: 1.93;
 color: white;
 }
 /* Значение в адресе */
-.info .contact-details {
+.letter .contact-details  {
 font-family: Roboto;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color: #FFFFFF;
 }
-.info .details {
+.link-mail .details {
  font-family: Roboto;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;  
-color: rgb (255, 255, 255, 0.6);
+color: var(--permanent-color);
+}
+.letter .web-link .details {
+font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;  
+color: rgb (255, 255, 255, 0.6);    
 }
