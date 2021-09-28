@@ -1,0 +1,242 @@
+:root {
+  --basic-bg-color: #2196f3;
+  --primery-item-color: #757575;
+  --internal-light-dark: #ffffff;
+  --permanent-color: rgb (255, 255, 255, 0.6);
+}
+body {
+  position: absolute;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Шрифт для логотипа */
+.logo {
+  color: black;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* Add a dark-blue color focus for logo */
+.logo:focus {
+  color: #080545;
+}
+/* Шрифт навигации */
+.site-nav .item-1 > a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+/* Add ps-style focus for item1 */
+.site-nav .item-1 a:focus {
+  color: #2196f3;
+}
+/* Шрифт навигации */
+.site-nav a {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+/* Add ps-style hover and active for nav unit */
+.site-nav .item-1 .link:hover,
+.site-nav .item-1 .link:active {
+  color: #2196f3;
+}
+.site-nav .link:hover,
+.site-nav .link:active {
+  color: #2196f3;
+}
+.site-nav .link:focus {
+  color: #080545;
+}
+/* Дополнительная навигация */
+.e-mail {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+/* Add style focus for adittional block */
+.list-tel .tittle:focus,
+.e-mail:focus {
+  color: #080545;
+}
+/* Дополнительная навигация */
+.tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--basic-bg-color);
+}
+.list .list-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+  line-height: 1.14;                      2196F3 757575
+  letter-spacing: 0.02em;
+
+ .e-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--basic-bg-color);
+}
+/*Add a ps-style focus for adittional block */
+.aside .tel:focus {
+  color: #2196f3;
+}
+/* The beginning of the main content */
+.caption h1,
+h2,
+h3 {
+  color: #212121;
+}
+/* letter-spacing */
+.caption h2,
+h3 {
+  letter-spacing: 0.03em;
+}
+.caption p {
+  letter-spacing: 0.03em;
+}
+/*Color page*/
+.wrapper {
+  background-color: #2f303a;
+}
+/* Header-1 */
+.wrapper .headline {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+/* Button */
+.wrapper .btn {
+  color: #ffffff;
+  background-color: var(--basic-bg-color);
+}
+.wrapper .button .btn {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* "List" */
+.activity-list .items p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.activity-list .items h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.section .activity-list .item-1 {
+  color: var(--primery-item-color);
+}
+.section .subtitle-1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+.section .subtitle-2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+.section .spesialist .team {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: #212121;
+}
+.section .desc {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+}
+/* The beginning of the Footer */
+.basement {
+  letter-spacing: 0.03em;
+  background-color: #2f303a;
+}
+/* Шрифт к футтеру logo*/
+.logotype .web-link {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.93;
+  color: #2196f3;
+}
+.basement a {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.93;
+  color: white;
+}
+/* Значение в адресе */
+.contact-details {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.info .link-mail {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.basement .info .web-link {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
