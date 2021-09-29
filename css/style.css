@@ -2,7 +2,7 @@
   --basic-bg-color: #2196f3;
   --primery-item-color: #757575;
   --internal-light-dark: #ffffff;
-  --permanent-color: rgb (255, 255, 255, 0.6);
+  --permanent-color: rgba(255, 255, 255, 0.6);
 }
 body {
   position: absolute;
@@ -14,6 +14,9 @@ a {
   text-decoration: none;
 }
 /* Шрифт для логотипа */
+.logo .bluecolor {
+color: #2196F3;
+}
 .logo {
   color: black;
   font-family: Raleway;
@@ -22,7 +25,7 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/* Add a dark-blue color focus for logo */
+/* Add blue color for style focus */
 .logo:focus {
   color: #080545;
 }
@@ -33,7 +36,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
 }
 /* Add ps-style focus for item1 */
 .site-nav .item-1 a:focus {
@@ -60,6 +63,13 @@ a {
 .site-nav .link:focus {
   color: #080545;
 }
+.list .list-tel:hover {
+color: #2196F3;
+}
+.list .e-mail:hover {
+color: #2196F3;  
+}
+
 /* Дополнительная навигация */
 .e-mail {
   font-family: Roboto;
@@ -90,17 +100,17 @@ a {
   font-weight: 500;
   font-size: 14px;
   color: #757575;
-  line-height: 1.14;                      2196F3 757575
+  line-height: 1.14;                      
   letter-spacing: 0.02em;
-
- .e-mail {
+}
+ .list .e-mail {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--basic-bg-color);
+  color: #757575;;
 }
 /*Add a ps-style focus for adittional block */
 .aside .tel:focus {
